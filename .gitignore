@@ -1,0 +1,62 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Firebase credentials ###
+*serviceAccount*.json
+*service-account*.json
+firebase-secrets/
+*firebase-adminsdk*.json
+
+### Local environment and private credentials ###
+.env
+.env.*
+!.env.example
+!.env.template
+/secrets/
+/credentials/
+*.key
+*.p12
+*.pfx
+*.jks
+
+### Runtime logs ###
+logs/
+/*.log
+hs_err_pid*.log
+replay_pid*.log
+
+### Local H2 databases ###
+*.mv.db
+*.trace.db
+testing/postman/Leave-Booking-System-Local.postman_environment.json
